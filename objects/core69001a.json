@@ -1,0 +1,78 @@
+{
+  "name" : "Core Object2",
+  "singularName" : "Core Object2",
+  "internalName" : "core69001a",
+  "applicationId" : "58ab6b14adbf4dd8b6a5069360ae50c0",
+  "isActive" : true,
+  "isAvailableAsTab" : true,
+  "isWebEnabled" : true,
+  "isAvailableForReporting" : true,
+  "isAvailableForSearch" : true,
+  "recycleDeletedRecords" : true,
+  "enableGuestUserRecordPermission" : false,
+  "guestUserRecordPermission" : {
+    "canAdd" : "false",
+    "canRead" : "false",
+    "canUpdate" : "false",
+    "canDelete" : "false",
+    "canViewAll" : "false"
+  },
+  "fields" : [ {
+    "createdId" : "a44cf9154ce04cfbbff6a9b59ec02c97",
+    "modifiedId" : "a44cf9154ce04cfbbff6a9b59ec02c97",
+    "id" : "5ab1741e3d494d8ba6934251b99141d7",
+    "name" : "Object ID",
+    "type" : "TEXT_FIELD",
+    "internalName" : "object_id",
+    "maxStorageLength" : 50,
+    "displayLength" : 30
+  }, {
+    "createdId" : "a44cf9154ce04cfbbff6a9b59ec02c97",
+    "modifiedId" : "a44cf9154ce04cfbbff6a9b59ec02c97",
+    "id" : "361803d997764e32a3369022b7150629",
+    "name" : "Owner",
+    "type" : "LOOKUP",
+    "internalName" : "owner_id",
+    "lookupObjectId" : "user_lookup"
+  }, {
+    "createdId" : "a44cf9154ce04cfbbff6a9b59ec02c97",
+    "modifiedId" : "a44cf9154ce04cfbbff6a9b59ec02c97",
+    "id" : "a26a191bf20643ebbf957ee6b2dca3c1",
+    "name" : "Record ID",
+    "type" : "NUMBER",
+    "internalName" : "id",
+    "displayLength" : 30,
+    "maxNumericValue" : 999999999,
+    "minNumericValue" : 0
+  }, {
+    "createdId" : "a44cf9154ce04cfbbff6a9b59ec02c97",
+    "modifiedId" : "a44cf9154ce04cfbbff6a9b59ec02c97",
+    "id" : "c25bfd551cb94872a6260e4d890d5965",
+    "name" : "Created By",
+    "type" : "LOOKUP",
+    "internalName" : "created_id",
+    "lookupObjectId" : "user_lookup"
+  }, {
+    "createdId" : "a44cf9154ce04cfbbff6a9b59ec02c97",
+    "modifiedId" : "a44cf9154ce04cfbbff6a9b59ec02c97",
+    "id" : "284f5c4a64e34eec805312fec2cbd3e3",
+    "name" : "Modified By",
+    "type" : "LOOKUP",
+    "internalName" : "modified_id",
+    "lookupObjectId" : "user_lookup"
+  }, {
+    "createdId" : "a44cf9154ce04cfbbff6a9b59ec02c97",
+    "modifiedId" : "a44cf9154ce04cfbbff6a9b59ec02c97",
+    "id" : "94b415bb8c1f4fc7962e148175b348d1",
+    "name" : "Date Created",
+    "type" : "DATETIME",
+    "internalName" : "date_created"
+  }, {
+    "createdId" : "a44cf9154ce04cfbbff6a9b59ec02c97",
+    "modifiedId" : "a44cf9154ce04cfbbff6a9b59ec02c97",
+    "id" : "0380864b6faa4641b835daa4318549b9",
+    "name" : "Date Modified",
+    "type" : "DATETIME",
+    "internalName" : "date_modified"
+  } ]
+}
