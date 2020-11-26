@@ -1,13 +1,13 @@
 {
     "id":"schoolsObjectIdValue",
-    "title":"Schools",
+    "name":"Schools",
     "singularName":"School",
+	"internalName": "schools"
     "description":"This is a description for Schools Object",
     "fields":[
         {
-            "id":"nameId",
-            "title":"Name",
-            "type":"TEXTFIELD"
+            "name":"name",
+            "type":"TEXT_FIELD"
         }
     ]
 }

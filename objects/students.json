@@ -1,13 +1,13 @@
 {
     "id":"studentsObjectIdValue",
-    "title":"Students",
+    "name":"Students",
     "singularName":"Student",
+	"internalName": "students"
     "description":"This is a description for Students Object",
     "fields":[
         {
-            "id":"studentNameId",
-            "title":"Student Name",
-            "type":"TEXTFIELD"
+            "name":"Student Name",
+            "type":"TEXT_FIELD"
         }
     ]
 }
