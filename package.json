@@ -1,0 +1,19 @@
+{
+  "name": "schoolmanagementapp",
+  "version": "1.0.0",
+  "description": "mytestapp intial version description",
+  "main": "app-meta.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agileapps-dev-com/package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agileapps-dev-com/package/issues"
+  },
+  "homepage": "https://github.com/agileapps-dev-com/package#readme"
+}

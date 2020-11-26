@@ -1,0 +1,11 @@
+{
+    "id":"schoolManagementAppIdValue",
+    "name":"School Management App",
+    "version":"1.0.0",
+    "meta":{
+        "objects":[
+            "./objects/schools.json",
+            "./objects/students.json"
+        ]
+    }
+}
