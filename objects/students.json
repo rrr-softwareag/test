@@ -2,7 +2,7 @@
     "id":"studentsObjectIdValue",
     "name":"Students",
     "singularName":"Student",
-	"internalName": "students"
+	"internalName": "students",
     "description":"This is a description for Students Object",
     "fields":[
         {
